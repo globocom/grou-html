@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<title>GROU</title>
+<meta name="robots" content="INDEX,FOLLOW">
+<meta name="description" content="Real Time - Performance">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<section id="barra-local" class="barra-local">
+	<a><img class="grou" src="grou_0.6.0.png"/></a>
+        <div class="area-total">
+            <div id="onde-estou">
+			 	<h1>Real Time - Performance</h1>
+			</div>
+        </div>  
+</section>
+
+<section class="sessao">
+    <div>
+        <div class="area-total">
+            <div class="area-total pagina-conteudo">
+            <div>		
+       			<div class="testar-projeto">
+                    	<style>
+                    	.area-total-abas{width:600px;margin:0 auto;min-height:300px}
+                    	.lista-abas,.lista-abas * {margin:0;padding:0;outline:none;border:0;background:none}
+                    	.lista-abas{position:relative;font-size:0;text-align:left;color:#666}
+                    	.lista-abas > input{position:absolute;display:none}
+                    	.lista-abas > label{position:relative;z-index:1;display:inline-block;box-sizing:border-box;-moz-box-sizing:border-box;padding:1px;padding-top:0;padding-left:0;font-size:13px;line-height:35px;cursor:pointer}
+                    	.lista-abas > label span{display:block;padding:0;background:rgba(255, 255, 255, .9)}
+                    	.lista-abas > label span span{padding:0 15px;background:transparent;transition:background .3s, color .4s;-o-transition:background .3s, color .4s;-ms-transition:background .3s, color .4s;-moz-transition:background .3s, color .4s;-webkit-transition:background .3s, color .4s}
+                    	.lista-abas > label:hover span span{background:#3498db;color:#fff}
+                    	.lista-abas > input:checked + label span span{background:#3498db;color:#fff}
+                    	.lista-abas > ul{list-style:none;position:relative;display:block;font-size:13px}
+                    	.lista-abas > ul > li{position:absolute;top:0;left:0;width:100%;overflow:auto;padding:20px 25px 25px;background:rgba(255, 255, 255, .9);box-sizing:border-box;-moz-box-sizing:border-box;opacity:0;-o-transform-origin:0% 0%;-ms-transform-origin:0% 0%;-moz-transform-origin:0% 0%;-webkit-transform-origin:0% 0%;-o-transition:opacity .8s, -o-transform .8s;-ms-transition:opacity .8s, -ms-transform .8s;-moz-transition:opacity .8s, -moz-transform .8s;-webkit-transition:opacity .8s, -webkit-transform .8s}
+                    	.lista-abas > .aba-1:checked ~ ul > .aba-1,.lista-abas > .aba-2:checked ~ ul > .aba-2,.lista-abas > .aba-3:checked ~ ul > .aba-3,.lista-abas > .aba-4:checked ~ ul > .aba-4{position:relative; z-index:1;opacity:1}
+                    	.conteudo{width:100%;position:relative;line-height:20px}
+                    	.pagina-url{loat:right;margin-top:15px}
+                    	.amimacao-flip > ul{perspective:2000px;-o-perspective:2000px;-ms-perspective:2000px;-moz-perspective:2000px;-webkit-perspective:2000px;perspective-origin:50% 50%;-o-perspective-origin:50% 50%;-ms-perspective-origin:50% 50%;-moz-perspective-origin:50% 50%;-webkit-perspective-origin:50% 50%}
+                    	.amimacao-flip > ul > li{-o-transform:rotateX(-90deg);-ms-transform:rotateX(-90deg);-moz-transform:rotateX(-90deg);-webkit-transform:rotateX(-90deg);background-color:#F5F5F5}.amimacao-flip > .aba-1:checked ~ ul > .aba-1,.amimacao-flip > .aba-2:checked ~ ul > .aba-2,.amimacao-flip > .aba-3:checked ~ ul > .aba-3,.amimacao-flip > .aba-4:checked ~ ul > .aba-4{-o-transform:rotateX(0deg);-ms-transform:rotateX(0deg); -moz-transform:rotateX(0deg);-webkit-transform:rotateX(0deg);-o-transition-delay:0.2s;-ms-transition-delay:0.2s;-moz-transition-delay:0.2s;-webkit-transition-delay:0.2s}
+                    	.area-total-abas h1{padding-bottom:20px;}
+                    	input:hover{background-color: #dddddd;}
+                    	
+                    </style>
+<div class="area-total-abas">
+	<div class="lista-abas amimacao-flip">
+		<input type="radio" name="lista-abas" checked id="aba-1" class="aba-1">
+		<label for="aba-1"><span><span>AB</span></span></label>
+		<input type="radio" name="lista-abas" id="aba-2" class="aba-2">
+		<label for="aba-2"><span><span>WRK</span></span></label>
+		<ul>
+			<li class="aba-1">
+				<div class="conteudo">
+					<p>
+						<fieldset id="ab">
+							<legend><h1>Worker: AB</h1></legend>
+							<p>Project <input type="text" name="tProjab" id="cProjab" placeholder="Project name"/></p>
+							<p>URL<input type="text" name="tUrlab" id="cUrlab" placeholder="http://"/></p>
+							<p>Requests <input class="req" type="number" name="tReq" id="cReq" min="0" max="10" value="0"/></p>
+							<p>Conections <input type="number" name="tReq" id="cReq" min="0" max="10" value="0"/></p>
+							<h1><a href="http://google.com.br"><img class="start" src="start_button.gif"/></a><h1>
+						</fieldset>
+					</form>
+				</div> 
+			</li>
+
+
+
+			<li class="aba-2">
+				<div class="conteudo">
+					<form>
+						<fieldset id="wrk">
+							<legend><h1>Worker: WRK</h1></legend>
+							
+							<p>Project <input type="text" name="tProjwrk" id="cProjwrk" placeholder="Project name"/></p>
+							<p>URL<input type="text" name="tUrlwrk" id="cUrlwrk" placeholder="http://"/></p>
+							<p>Thread <input type="number" name="tReq" id="cReq" min="0" max="10" value="0"/></p>
+							<p>Conections <input type="number" name="tReq" id="cReq" min="0" max="10" value="0"/></p>
+							<p>Time <input type="number" name="tReq" id="cReq" min="0" max="10" value="0"/></p>
+							<h1><a href="http://globo.com"><img class="start" src="start_button.gif"/></a><h1>
+						</fieldset>
+					</form>
+					
+				</div>
+			</li>
+		</ul>
+	</div>
+</div>
+</div>
+</section>
+
+</body>
+</html>
